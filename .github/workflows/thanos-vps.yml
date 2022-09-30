@@ -1,4 +1,4 @@
-name: rishabhxd2
+name: THANOS-VPS
 
 on:
     push:
@@ -42,5 +42,5 @@ jobs:
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
-              git commit -m "rishabhxd2 : Loop $(date -u +%D-%T%P)"
+              git commit -m "THANOS-VPS : Loop $(date -u +%D-%T%P)"
               git push -q https://${{ secrets.GIT_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:thanos-vps
