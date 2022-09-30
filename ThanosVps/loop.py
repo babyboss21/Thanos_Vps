@@ -1,4 +1,4 @@
-thanos username:"rishabhxd2" ^GIT_CLONER=thanos-vps
+thanos username:"THANOS-VPS" ^GIT_CLONER=thanos-vps
   thanos="THANOS-VPS" ^GIT):base program await 
                        def loop server 24H.runtime return
     try()
